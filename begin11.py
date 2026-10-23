@@ -1,0 +1,12 @@
+a = float(input())
+b = float(input())
+
+sum = abs(a + b)
+dif = abs(a - b)
+com = abs(a * b)
+div = abs(a / b)
+
+print(sum)
+print(dif)
+print(com)
+print(div)
