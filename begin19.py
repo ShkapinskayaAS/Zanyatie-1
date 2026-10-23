@@ -3,6 +3,10 @@ y1 = float(input())
 x2 = float(input())
 y2 = float(input())
 
-distance = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
+a = (x2 - x1)
+b = (y2 - y1)
+perimeter = 2 * (a + b)
+area = a * b
 
-print(distance)
+print(perimeter)
+print(area)
